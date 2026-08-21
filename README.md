@@ -26,6 +26,8 @@ npm run build
 
 Every pull request is automatically checked with the same production build.
 
+Production deployment is handled by Cloudflare. Updates merged into `main` automatically start a new Cloudflare build; the ChatGPT Sites address is an internal preview and should not be shared as the public website.
+
 ## Working together
 
 1. Create a branch from `main`.
